@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); /* Gradient background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background: white; /* White background for the game container */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px 40px; /* Padding for the container */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    text-align: center; /* Centered text */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px; /* Space below title */
+}
+
+.scores {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px; /* Increased padding for buttons */
+    margin: 5px; /* Space between buttons */
+    font-size: 24px; /* Larger font size for buttons */
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.animation {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.gesture {
+    font-size: 100px;
+    margin: 0 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.show {
+    opacity: 1;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#computerChoiceMessage {
+    font-size: 20px;
+    color: #555;
+}
+
+#resetButton {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545; /* Red color for reset button */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s; /* Transition effect */
+}
+
+#resetButton:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+
+
+
+
+
+
